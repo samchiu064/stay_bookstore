@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Normalize.css">
+    <link rel="stylesheet" href="css/style01.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- Header__Section -->
+    <header class="header__section">
+        <div class="header__content">
+            <div class="header__logo">
+                <a href="index.html"><img src="imgs/homepage/logo.png" alt="旅人書店"></a>
+                <label for="header__btn--menu-control" class="header__menu-icon--mobile">
+                    <span class="bar bar1"></span>
+                    <span class="bar bar2"></span>
+                    <span class="bar bar3"></span>
+                </label>
+            </div>
+            <input type="checkbox" id="header__btn--menu-control">
+            <nav class="header__menu">
+                <li><a href="booking.html" class="active-nav">預約換宿</a></li>
+                <li><a href="story-list.html">旅人故事</a></li>
+                <li><a href="story-telling.html">店長說書</a></li>
+                <li><a href="room-type.html">房型介紹</a></li>
+                <li><a href="photo.html">生活隨影</a></li>
+                <li><a href="about.html">關於我們</a></li>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page-info__Section -->
+    <section class="page-info__section page-info__section--booking">
+        <div class="page-info__content page-info__content--booking">
+            <div class="page-info__pic page-info__pic--booking">
+                <img src="imgs/booking/booking_cover.jpg" alt="以書換宿">
+            </div>
+            <div class="page-info__desc page-info__desc--booking">
+                <h2>以書換宿</h2>
+                <p>我們是一家喜愛紙本書的民宿，我們開店，除了喜歡接觸陌生人，更為圓一個愛書人的夢。在我們這住宿不用錢，我們「以書換宿」。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breadcrumb__Area -->
+    <div class="breadcrumb__area">
+        <div class="breadcrumb__content">
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="booking.html">預約換宿</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Book-form -->
+    <div class="book-form__area">
+        <div class="book-form__content">
+            <div class="book-form__intro">
+                <div class="book-form__step">
+                    <div class="book-form__icon-box">
+                        <img src="imgs/booking/fillout.png" alt="整理書單圖標">
+                    </div>
+                    <div class="book-form__desc">
+                        <h3>登錄二手書</h3>
+                        <p>將書籍的ISBN號碼填入下方表格，以利我們計算折扣。</p>
+                    </div>
+                </div>
+                <div class="book-form__step">
+                    <div class="book-form__icon-box">
+                        <img src="imgs/booking/findISBN.png" alt="放大鏡圖標">
+                    </div>
+                    <div class="book-form__desc">
+                        <h3>查看折扣</h3>
+                        <p>查看您總共獲得了多少折扣，我們列出了各種房型和價格供您參考。</p>
+                    </div>
+                </div>
+                <div class="book-form__step">
+                    <div class="book-form__icon-box">
+                        <img src="imgs/booking/reserve.png" alt="填寫圖標">
+                    </div>
+                    <div class="book-form__desc">
+                        <h3>預約住宿</h3>
+                        <p>馬上透過優惠價格預約住宿吧！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-table__section">
+        <div class="form-table__content">
+            <div class="form-table__step-1">
+                <span>1</span>
+                <h3>二手書登錄</h3>
+            </div>
+            <table>
+                <thead>
+                    <tr">
+                        <th scope="col">ISBN</th>
+                        <th scope="col">書名</th>
+                        <th scope="col">作者</th>
+                        <th scope="col">出版日期</th>
+                        </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="ISBN">9789866272769</td>
+                        <td data-label="書名" class="book-name">拖延心理學: 為什麼我老是愛拖延?是與生俱來的壞習慣,還是身不由己?</td>
+                        <td data-label="作者" class="author-name">珍.博克(Jane B. Burka), 萊諾拉.袁(Lenora M. Yuen)著; 洪慧芳譯
+                        </td>
+                        <td data-label="出版日期">2011/10</td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="ISBN">9789573274582</td>
+                        <td data-label="書名" class="book-name">設計的心理學: 人性化的產品設計如何改變世界</td>
+                        <td data-label="作者" class="author-name">Donald A. Norman著; 陳宜秀譯 </td>
+                        <td data-label="出版日期">2014/08</td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="ISBN">9789862133736</td>
+                        <td data-label="書名" class="book-name">為什麼我們這樣生活、那樣工作?: 全球瘋行的習慣改造指南</td>
+                        <td data-label="作者" class="author-name">Charles Duhigg著; 鍾玉玨, 許恬寧譯</td>
+                        <td data-label="出版日期">2012/10</td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="ISBN">9789861754604</td>
+                        <td data-label="書名" class="book-name">刻意練習: 原創者全面解析,比天賦更關鍵的學習法</td>
+                        <td data-label="作者" class="author-name">安德斯.艾瑞克森(Anders Ericsson), 羅伯特.普爾(Robert Pool)著;
+                            陳繪茹譯</td>
+                        <td data-label="出版日期">2017/06</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="form-table__add">
+                <div class="form-table__ISBN-input">
+                    <label>請填入ISBN</label>
+                    <input type="text">
+                    <button class="form-table__btn form-table__btn--add">新增</button>
+                    <button class="form-table__btn form-table__btn--submit">送出</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="discount__section">
+        <div class="discount__content">
+            <div class="discount__step-2">
+                <span>2</span>
+                <h3>查看折扣</h3>
+            </div>
+            <div class="discount__room-type">
+                <div class="discount__room">
+                    <a href="room-type.html" target="_blank">
+                        <div class="discount__img-box">
+                            <img src="imgs/booking/booking__room00.jpg" alt="背包單人房">
+                        </div>
+                        <div class="discount__desc">
+                            <h3>背包單人房</h3>
+                            <p>折扣後價格：<b>500</b><span>元</span>每晚</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="discount__room">
+                    <a href="room-type.html" target="_blank">
+                        <div class="discount__img-box">
+                            <img src="imgs/booking/booking__room01.jpg" alt="專屬單人房">
+                        </div>
+                        <div class="discount__desc">
+                            <h3>專屬單人房</h3>
+                            <p>折扣後價格：<b>1,000</b><span>元</span>每晚</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="discount__room">
+                    <a href="room-type.html" target="_blank">
+                        <div class="discount__img-box">
+                            <img src="imgs/booking/booking__room02.jpg" alt="背包雙人房">
+                        </div>
+                        <div class="discount__desc">
+                            <h3>專屬雙人房</h3>
+                            <p>折扣後價格：<b>1,000</b><span>元</span>每晚</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="discount__room">
+                    <a href="room-type.html" target="_blank">
+                        <div class="discount__img-box">
+                            <img src="imgs/booking/booking__room03.jpg" alt="典雅四人房">
+                        </div>
+                        <div class="discount__desc">
+                            <h3>典雅四人房</h3>
+                            <p>折扣後價格：<b>1,500</b><span>元</span>每晚</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="discount__room">
+                    <a href="room-type.html" target="_blank">
+                        <div class="discount__img-box">
+                            <img src="imgs/booking/booking__room04.jpg" alt="背包六人房">
+                        </div>
+                        <div class="discount__desc">
+                            <h3>背包六人房</h3>
+                            <p>折扣後價格：<b>2,500</b><span>元</span>每晚</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="discount__room">
+                    <a href="room-type.html" target="_blank">
+                        <div class="discount__img-box">
+                            <img src="imgs/booking/booking__room05.jpg" alt="專屬十人房">
+                        </div>
+                        <div class="discount__desc">
+                            <h3>專屬十人房</h3>
+                            <p>折扣後價格：<b>3,000</b><span>元</span>每晚</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reserve__section">
+        <div class="reserve__arrow reserve__arrow--left">
+            <a href="javascript:">&#8249;</a>
+        </div>
+        <div class="reserve__wrapper">
+            <div class="reserve__step-3">
+                <span>3</span>
+                <h3>預約住宿</h3>
+            </div>
+            <div class="reserve__container">
+                <div class="reserve__card">
+                    <div class="reserve__slider">
+                        <img src="imgs/booking/booking__roomDEMO.jpg" alt="專屬十人房">
+                    </div>
+
+                    <div class="reserve__content">
+                        <div class="reserve__desc">
+                            <h3>專屬十人房</h3>
+                            <p>寬敞的空間配有十個床鋪。您可以在房內欣賞美麗的夜景。房間中的音響設備可供您插上自己的DVD播放器、iPod或是其他音樂播放器。</p>
+                            <p>您可以用音樂播放器聽自己喜愛的音樂。房內還配有咖啡機以及免費飲料包含半瓶紅酒。希望您在入住的期間能享受到半刻的奢華。</p>
+                            <p><b>客房設備</b></p>
+                            <ul>
+                                <li>寬敞的空間內含十個床位</li>
+                                <li>咖啡機和免費的半瓶紅酒</li>
+                                <li>全套的音響設備</li>
+                            </ul>
+                            <button class="reserve__button">訂房</button>
+                        </div>
+                        <div class="reserve__booking">
+                            <i class="reserve__close cancel"></i>
+                            <div class="reserve__room-info">
+                                <p class="reserve__checkin">訂房</p>
+
+                                <form>
+                                    <label>姓名</label>
+                                    <input type="text" placeholder="請輸入全名">
+
+                                    <div class="reserve__inline-fields">
+                                        <div>
+                                            <label>成人</label>
+                                            <input type="number" placeholder="成人">
+                                        </div>
+
+                                        <div>
+                                            <label>孩童</label>
+                                            <input type="number" placeholder="孩童">
+                                        </div>
+                                    </div>
+
+                                    <div class="reserve__inline-fields">
+                                        <div>
+                                            <label>入住時間</label>
+                                            <input type="date" placeholder="入住時間">
+                                        </div>
+
+                                        <div>
+                                            <label>退房時間</label>
+                                            <input type="date" placeholder="退房時間">
+                                        </div>
+                                    </div>
+
+                                    <label>聯絡人電話</label>
+                                    <input type="tel" placeholder="0900-000-000">
+                                </form>
+
+                            </div>
+
+                            <div class="reserve__payment">
+                                <p class="reserve__pay-title">付款</p>
+                                <form>
+                                    <label>卡號</label>
+                                    <input type="text" placeholder="0000-0000-0000-0000">
+
+                                    <div class="reserve__inline-fields">
+                                        <div>
+                                            <label>有效日期</label>
+                                            <input type="text" placeholder="MM YY">
+                                        </div>
+
+                                        <div>
+                                            <label>安全碼</label>
+                                            <input type="text" placeholder="•••">
+                                        </div>
+                                    </div>
+
+                                    <label>持卡人</label>
+                                    <input type="text" placeholder="持卡人姓名">
+                                </form>
+
+                                <div class="reserve__terms">
+                                    <input type="checkbox" checked>
+                                    <p>
+                                        我已瞭解並同意遵守<a href="javascript:">使用者條款</a>，以獲得更好的住宿體驗。
+                                    </p>
+                                </div>
+
+                                <button class="reserve__button">訂房</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="reserve__arrow reserve__arrow--right">
+            <a href="javascript:">&#8250;</a>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="footer__seciotn">
+        <div class="footer__content">
+            <p>© Copyright 2019 旅人書店</p>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

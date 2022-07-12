@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Normalize.css" />
+    <link rel="stylesheet" href="css/style01.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Serif+TC"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header__Section -->
+    <header class="header__section">
+      <div class="header__content">
+        <div class="header__logo">
+          <a href="index.html"
+            ><img src="imgs/homepage/logo.png" alt="旅人書店"
+          /></a>
+          <label
+            for="header__btn--menu-control"
+            class="header__menu-icon--mobile"
+          >
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar3"></span>
+          </label>
+        </div>
+        <input type="checkbox" id="header__btn--menu-control" />
+        <nav class="header__menu">
+          <li><a href="booking.html">預約換宿</a></li>
+          <li><a href="story-list.html">旅人故事</a></li>
+          <li><a href="story-telling.html">店長說書</a></li>
+          <li><a href="room-type.html">房型介紹</a></li>
+          <li><a href="photo.html">生活隨影</a></li>
+          <li><a href="about.html" class="active-nav">關於我們</a></li>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Page-info__Section -->
+    <section class="page-info__section page-info__section--story-list">
+      <div class="page-info__content page-info__content--story-list">
+        <div class="page-info__pic page-info__pic--story-list">
+          <img src="imgs/about/cover.jpg" alt="旅人書店" />
+        </div>
+        <div class="page-info__desc page-info__desc--story-list">
+          <h2>關於我們</h2>
+          <p>
+            旅人書店是一家提供二手書換宿的書店，我們也會將旅人們的故事撰寫成冊，讓更多人知道，我們希望將這家店打造成旅途中的休憩處，歡迎各位旅人前來。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Breadcrumb__Area -->
+    <div class="breadcrumb__area">
+      <div class="breadcrumb__content">
+        <ul>
+          <li><a href="index.html">首頁</a></li>
+          <li><a href="about.html">關於我們</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- About-us__section -->
+    <div class="about-us__section">
+      <div class="about-us__content">
+        <div class="about-us__map">
+          <iframe
+            width="600"
+            height="450"
+            style="border: 0"
+            loading="lazy"
+            allowfullscreen
+            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJy02Q7MEjaDQRVuRcRdQpwc0&key=AIzaSyBma0bft8cUW3836k-htNIq2VIJnY6BcqE"
+          ></iframe>
+        </div>
+        <div class="about-us__desc">
+          <h2>書店資訊</h2>
+          <div class="about-us__store-info">
+            <h3>書店地址 : <span>桃園市中壢區中大路300號</span></h3>
+            <h3>預約電話 : <span>03-2578631</span></h3>
+            <h3>營業時間 : <span>每日13:00 - 22:00 PM</span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer__seciotn">
+      <div class="footer__content">
+        <p>© Copyright 2019 旅人書店</p>
+      </div>
+    </footer>
+  </body>
+</html>

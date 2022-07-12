@@ -1,4 +1,4 @@
-# [旅人書店 - 以書換宿的民宿](https://samchiu064.github.io/stay_bookstore/)
+# [旅人書店 - 二手書換宿](https://samchiu064.github.io/stay_bookstore/)
 此專案為 2019 年資策會前端班之個人作品，為不使用 css library 開發的 RWD 靜態網站。
 
 關鍵字：No library, SCSS, RWD, jQuery, Static website
